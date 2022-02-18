@@ -1,0 +1,17 @@
+{
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "Simple CRUD Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Purwo Hadi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1"
+  }
+}
